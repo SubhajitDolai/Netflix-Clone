@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* Hero section */
+.hero-section {
+    background-image: url(Assets/hero_image.jpg);
+    height: 63vh;
+    width: 100%;
+    background-position: center;
+    background-size: max(1200px, 150vw);
+    background-repeat: no-repeat;
+}
+.hero-gradient {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 10%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.8) 80%
+    );
+    height: 63vh;
+    width: 100%;
+}
+
+/* Nav section */
+nav {
+    height: 90px;
+    max-width: 61vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-buttons select {
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    width: 90px;
+    height: 32px;
+    padding: 0px 6px;
+    margin: 0px 25px;
+    border-radius: 3px;
+}
+.nav-buttons button {
+    height: 32px;
+    width: 77px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.25s ease;
+}
+.nav-buttons button:hover {
+    cursor: pointer;
+    background-color: #C11119;
+    transition: background-color 0.25s ease;
+}
+
+/* Hero center content */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin: auto;
+    height: 57vh;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+.hero h3 {
+    font-weight: lighter;
+    font-size: 1.25rem;
+    margin-top: 25px;
+}
+.hero span {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email input {
+    background-color: black;
+    opacity: 0.5;
+    width: 350px;
+    height: 56px;
+    font-size: medium;
+    border: 0.1px solid white;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+input::placeholder {
+    color: white;
+}
+#email button {
+    height: 56px;
+    width: 210px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    transition: background-color 0.25s ease;
+}
+#email button:hover {
+    cursor: pointer;
+    background-color: #C11119;
+    transition: background-color 0.25s ease;
+}
+
+/* seprator div */
+.seperator {
+    height: 8px;
+    width: 100%;
+    background-color: #232323;
+}
+
+/* section 1 */
+.section1 {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    margin: auto;
+}
+
+#section1-text {
+    width: 35rem;
+    color: white;
+}
+#section1-text h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#section1-text p{
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+}
+
+#section1-image {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#section1-image img {
+    position: relative;
+    z-index: 1;
+}
+#section1-image video {
+    position: absolute;
+    top: 98px;
+}
+
+/* section 2 */
+.section2 {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    margin: auto;
+}
+
+#section2-image {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#section2-image img {
+    position: relative;
+}
+#small-img {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid #5A5A5A;
+    border-radius: 10px;
+    height: 100px;
+    width: 320px;
+}
+#small-img img {
+    height: 80px;
+    width: 60px;
+    margin: 0px 0px 0px 12px;
+}
+#img-text {
+    margin: 0px 0px 0px 15px;
+}
+#img-text> :first-child {
+    font-weight: bold;
+}
+#img-text> :nth-child(2) {
+    color: #0171EB;
+    font-size: 0.875rem;
+}
+#img-logo {
+    font-size: 20px;
+    margin: 0px 0px 0px 65px;
+}
+
+#section2-text {
+    width: 35rem;
+    color: white;
+}
+#section2-text h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#section2-text p{
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+}
+
+/* Section 3 */
+.section3 {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    margin: auto;
+}
+
+#section3-text {
+    width: 35rem;
+    color: white;
+}
+#section3-text h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#section3-text p{
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+}
+
+#section3-image {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#section3-image img {
+    position: relative;
+    z-index: 1;
+}
+#section3-image video {
+    position: absolute;
+    top: 60px;
+    height: 230px;
+    width: fit-content;
+}
+
+/* Section 4 */
+.section4 {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+    margin: auto;
+}
+
+#section4-text {
+    width: 35rem;
+    color: white;
+}
+#section4-text h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#section4-text p{
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+}
+
+/* Frequently Asked Questions */
+.faq {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-questions {
+    color: white;
+    width: 62vw;
+    margin: auto;
+}
+.faq-questions h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px;
+    font-weight: bolder;
+}
+#faq-box {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #2D2D2D;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease;
+}
+#faq-box:hover {
+    cursor: pointer;
+    background-color: #414141;
+    transition: background-color 0.3s ease;
+}
+#faq-box i{
+    font-size: 2rem;
+}
+
+#get-started {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#get-started h3 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+#get-started input {
+    opacity: 0.7;
+    color: #B7B7B7;
+}
+
+/* Footer */
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+footer .questions {
+    margin: 25px 0px 25px 9px;
+    color: #B7B7B7;;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-item a {
+    color: #B7B7B7;
+    margin: 10px;
+}
+.netflix-India {
+    margin: 25px 10px 25px 10px;
+    color: #B7B7B7;;
+}

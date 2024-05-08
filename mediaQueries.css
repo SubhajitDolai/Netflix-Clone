@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1280px) {
+    nav {
+        max-width: 100%;
+        margin: 0px 30px;
+    }
+    .nav-buttons select {
+        margin: 0px 10px;
+    }
+
+    #section1-text {
+        width: 25rem;
+        margin: 0px 0px 0px 50px;
+    }
+    #section2-text {
+        width: 25rem;
+        margin: 0px 50px 0px 0px;
+    }
+    #section3-text {
+        width: 25rem;
+        margin: 0px 0px 0px 50px;
+    }
+    #section4-text {
+        width: 25rem;
+        margin: 0px 50px 0px 0px;
+    }
+
+    .faq-questions {
+        width: 90%;
+    }
+
+    footer {
+        padding: 0px;
+        max-width: 100vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .hero-section {
+        height: 58vh;
+    }
+    .hero-gradient {
+        height: 58vh;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1.25rem;
+        margin: 20px auto 0px;
+    }
+    .hero h3 {
+        font-size: 1.15rem;
+        margin: 20px 70px 0px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        height: 60vh;
+    }
+    #section1-text {
+        margin: 0px;
+        text-align: center;
+    }
+    #section1-text h2 {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #section1-text p {
+        font-size: 1.125rem;
+    }
+
+    .section2 {
+        flex-direction: column;
+        height: 60vh;
+    }
+    #section2-text {
+        margin: 0px;
+        text-align: center;
+    }
+    #section2-text h2 {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #section2-text p {
+        font-size: 1.125rem;
+    }
+
+    .section3 {
+        flex-direction: column;
+        height: 60vh;
+    }
+    #section3-text {
+        margin: 0px;
+        text-align: center;
+    }
+    #section3-text h2 {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #section3-text p {
+        font-size: 1.125rem;
+    }
+
+    .section4 {
+        flex-direction: column;
+        height: 60vh;
+    }
+    #section4-text {
+        margin: 0px;
+        text-align: center;
+    }
+    #section4-text h2 {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #section4-text p {
+        font-size: 1.125rem;
+    }
+
+    .faq {
+        height: 87vh;
+    }
+    .faq-questions {
+        width: 95%;
+    }
+    .faq-questions h2 {
+        font-size: 2rem;
+        margin: 30px;
+    }
+    #faq-box {
+        font-size: 1.125rem;
+    }
+    #faq-box i {
+        font-size: 1.25rem;
+    }
+    #get-started h3 {
+        font-size: 1.125rem;
+    }
+
+    footer {
+        padding: 0px;
+        max-width: 85vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #email {
+        flex-direction: column;
+    }
+    #email input {
+        overflow: hidden;
+    }
+    #email button {
+        margin-top: 10px;
+    }
+
+    /* Section 1 */
+    #section1-image {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #section1-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #section1-image video {
+        width: 75%;
+        height: auto;
+        display: block;
+        top: 65px;
+    }
+    #section1-text {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Section 2 */
+    #section2-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #small-img img {
+        height: 80px;
+        width: 60px;
+        margin: 0px 0px 0px 12px;
+    }
+    #section2-text {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Section 3 */
+    #section3-image {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #section3-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #section3-image video {
+        width: 60%;
+        height: auto;
+        display: block;
+        top: 45px;
+    }
+    #section3-text {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Section 4 */
+    #section4-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #section4-text {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Footer */
+    .faq {
+        height: 100vh;
+    }
+}
