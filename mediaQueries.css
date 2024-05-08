@@ -35,6 +35,13 @@
 }
 
 @media only screen and (max-width: 960px) {
+    nav {
+        max-width: 100%;
+        margin: 0px 20px 0px 0px;
+    }
+    .nav-logo img {
+        width: 90px;
+    }
     .hero-section {
         height: 58vh;
     }
@@ -144,6 +151,9 @@
 }
 
 @media only screen and (max-width: 650px) {
+    .hero h3 {
+        display: none;
+    }
     #email {
         flex-direction: column;
     }
@@ -223,8 +233,15 @@
         overflow: hidden;
     }
 
+    #get-started {
+        padding: 50px 0px;
+    }
+    #get-started h3 {
+        display: none;
+    }
+
     /* Footer */
     .faq {
-        height: 100vh;
+        height: 90vh;
     }
 }
