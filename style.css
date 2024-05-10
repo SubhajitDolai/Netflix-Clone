@@ -71,7 +71,7 @@ nav {
 }
 .nav-buttons button:hover {
     cursor: pointer;
-    background-color: #C11119;
+    background-color: #c11119;
     transition: background-color 0.25s ease;
 }
 
@@ -136,7 +136,7 @@ input::placeholder {
 }
 #email button:hover {
     cursor: pointer;
-    background-color: #C11119;
+    background-color: #c11119;
     transition: background-color 0.25s ease;
 }
 
@@ -162,11 +162,11 @@ input::placeholder {
     width: 35rem;
     color: white;
 }
-#section1-text h2{
+#section1-text h2 {
     font-weight: bolder;
     font-size: 3rem;
 }
-#section1-text p{
+#section1-text p {
     font-size: 1.5rem;
     margin: 16px 0px 0px;
 }
@@ -214,7 +214,7 @@ input::placeholder {
     bottom: 40px;
     background-color: black;
     color: white;
-    border: 2px solid #5A5A5A;
+    border: 2px solid #5a5a5a;
     border-radius: 10px;
     height: 100px;
     width: 320px;
@@ -227,11 +227,11 @@ input::placeholder {
 #img-text {
     margin: 0px 0px 0px 15px;
 }
-#img-text> :first-child {
+#img-text > :first-child {
     font-weight: bold;
 }
-#img-text> :nth-child(2) {
-    color: #0171EB;
+#img-text > :nth-child(2) {
+    color: #0171eb;
     font-size: 0.875rem;
 }
 #img-logo {
@@ -243,11 +243,11 @@ input::placeholder {
     width: 35rem;
     color: white;
 }
-#section2-text h2{
+#section2-text h2 {
     font-weight: bolder;
     font-size: 3rem;
 }
-#section2-text p{
+#section2-text p {
     font-size: 1.5rem;
     margin: 16px 0px 0px;
 }
@@ -267,11 +267,11 @@ input::placeholder {
     width: 35rem;
     color: white;
 }
-#section3-text h2{
+#section3-text h2 {
     font-weight: bolder;
     font-size: 3rem;
 }
-#section3-text p{
+#section3-text p {
     font-size: 1.5rem;
     margin: 16px 0px 0px;
 }
@@ -308,18 +308,18 @@ input::placeholder {
     width: 35rem;
     color: white;
 }
-#section4-text h2{
+#section4-text h2 {
     font-weight: bolder;
     font-size: 3rem;
 }
-#section4-text p{
+#section4-text p {
     font-size: 1.5rem;
     margin: 16px 0px 0px;
 }
 
 /* Frequently Asked Questions */
 .faq {
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,7 +330,7 @@ input::placeholder {
     width: 62vw;
     margin: auto;
 }
-.faq-questions h2{
+.faq-questions h2 {
     font-size: 3rem;
     text-align: center;
     margin: 30px;
@@ -342,7 +342,7 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-color: #2D2D2D;
+    background-color: #2d2d2d;
     margin-bottom: 8px;
     transition: background-color 0.3s ease;
 }
@@ -351,7 +351,7 @@ input::placeholder {
     background-color: #414141;
     transition: background-color 0.3s ease;
 }
-#faq-box i{
+#faq-box i {
     font-size: 2rem;
 }
 
@@ -369,7 +369,7 @@ input::placeholder {
 }
 #get-started input {
     opacity: 0.7;
-    color: #B7B7B7;
+    color: #b7b7b7;
 }
 
 /* Footer */
@@ -381,7 +381,7 @@ footer {
 }
 footer .questions {
     margin: 25px 0px 25px 9px;
-    color: #B7B7B7;;
+    color: #b7b7b7;
 }
 .footer {
     display: flex;
@@ -395,10 +395,10 @@ footer .questions {
     text-align: left;
 }
 .footer-item a {
-    color: #B7B7B7;
+    color: #b7b7b7;
     margin: 10px;
 }
 .netflix-India {
     margin: 25px 10px 25px 10px;
-    color: #B7B7B7;;
+    color: #b7b7b7;
 }

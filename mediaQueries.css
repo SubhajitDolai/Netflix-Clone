@@ -124,9 +124,6 @@
         font-size: 1.125rem;
     }
 
-    .faq {
-        height: 87vh;
-    }
     .faq-questions {
         width: 95%;
     }
@@ -159,9 +156,14 @@
     }
     #email input {
         overflow: hidden;
+        width: 295px;
+        height: 48px;
     }
     #email button {
         margin-top: 10px;
+        width: 160px;
+        height: 48px;
+        font-size: 1.12rem;
     }
 
     /* Section 1 */
@@ -240,11 +242,6 @@
         display: none;
     }
 
-    /* FAQ */
-    .faq {
-        height: 90vh;
-    }
-
     /* Footer */
     footer .questions {
         font-size: 0.75rem;
@@ -262,6 +259,6 @@
 
 @media only screen and (max-width: 400px) {
     .faq {
-        height: 100vh;
+        height: 95vh;
     }
 }
