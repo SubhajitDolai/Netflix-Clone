@@ -240,8 +240,28 @@
         display: none;
     }
 
-    /* Footer */
+    /* FAQ */
     .faq {
         height: 90vh;
+    }
+
+    /* Footer */
+    footer .questions {
+        font-size: 0.75rem;
+        margin: 10px;
+    }
+    .footer-item a {
+        font-size: 0.75rem;
+        margin: 5px 10px;
+    }
+    .netflix-India {
+        font-size: 0.75rem;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .faq {
+        height: 100vh;
     }
 }
