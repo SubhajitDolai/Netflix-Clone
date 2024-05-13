@@ -262,3 +262,32 @@
         height: 95vh;
     }
 }
+
+@media only screen and (max-height: 900px) {
+    .section1 {
+        height: 550px;
+    }
+    .section2 {
+        height: 550px;
+    }
+    .section3 {
+        height: 550px;
+    }
+    .section4 {
+        height: 550px;
+    }
+
+    .faq {
+        height: 820px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+
+    .hero-section {
+        height: 63vh;
+    }
+    .hero-gradient {
+        height: 63vh;
+    }
+}
